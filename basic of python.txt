@@ -1,0 +1,90 @@
+fruits = ["apple", "banana", "cherry","kele", "Santre", "Seb"]
+for i in fruits:
+  print(i)
+
+
+fruits = ["apple","cherry","kele", "Santre","banana","Seb"]
+for i in fruits:
+  print(i)
+  if i == "banana":
+    break
+
+fruits = ["apple","cherry","kele", "Santre","banana","Seb"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+for x in range(6):
+  print(x)
+
+for x in range(2, 6):
+  print(x)
+
+for x in range(12, 300, 30):
+  print(x)
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+
+for x in range(600,1300,100):
+  if x == 1000: break
+  print(x)
+else:
+  print("Finally finished!")
+
+a = int(input("Enter a number"))
+b = int(input("Enter Second number"))
+if b > a:
+      print("b is greater than a")
+else:
+    print("a is greater than b")
+
+a=(input("Enter the name "))
+a=a.upper()
+for i in (a):
+    if i in ("AEIOU"):
+        print(i)
+
+
+
+a=int(input("Enter the numner"))
+
+if a <=100:
+    print("Number kaffi kam hai")
+elif a<=200:
+        print("theek thak hai number")
+elif a<=300:
+        print("Sahi jaa rha hai")
+            
+else:
+    print("Bacche ki jaan lega kya")
+
+a = int(input("Enter a number:"))
+b = int(input("Enter a number:"))
+c = int(input("Enter a number:"))
+if a > b and c > a:
+      print("Both conditions are True")
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
+
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+
+
+
+
+
